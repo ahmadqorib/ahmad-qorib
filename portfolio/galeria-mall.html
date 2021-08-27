@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Qorib</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        .shadow {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(48, 45, 45, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-300">
+    <img src="../images/home.svg" class="fixed block inset-0 w-full object-cover"
+            style="z-index: -1;">
+
+    <nav class="fixed w-screen py-2 z-50 opacity-90" id="navbar">
+        <div class="flex">
+            <div class="flex-1"></div>
+            <div class="flex-2 flex items-center justify-center">
+                <div class="hidden sm:block sm:ml-6">
+                    <div class="flex space-x-2">
+                        <a href="javascript:void(0);" class="bg-red-700 hover:bg-red-600 text-white px-3 py-2 rounded-md text-sm font-medium" id="menu-tentang">Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1"></div>
+        </div>
+    </nav>
+
+    <div class="flex items-center justify-center h-screen">
+
+        <div class="bg-gray-50 w-11/12 h-3/4 lg:w-3/4 flex flex-col justify-center items-center lg:grid lg:grid-cols-2 rounded-lg p-6">
+            <div class="lg:block flex flex-col items-center justify-center lg:pl-14">
+                <div class="text-3xl lg:text-6xl w-full lg:w-96 g:-space-y-2">
+                    <h4 class="text-left bg-clip-text text-transparent bg-gradient-to-b from-red-600 to-yellow-400 capitalize tracking-wider">
+                        <span>CMS App Galeria Mall</span>
+                    </h4>
+                </div>
+                <div class="my-4">
+                    <p class="lg:text-justify text-center lg:text-sm text-xs text-gray-500 tracking-wide w-80">
+                        Saya hanyalah seseorang yang bergerak didunia teknologi informasi, terutama pada dunia pemrograman. Dengan pengalaman saya selama ini sebagai software developer, saya terampil dalam menganalisa,merancang dan mengimplementasikan sebuah kasus kedalam bentuk digital.
+                    </p>
+                </div>
+            </div>
+            <div class="lg:block flex flex-col items-center justify-center lg:pl-14">
+                <div class="my-4 lg:text-2xl">
+                    <h4 class="text-left bg-clip-text text-red-800 capitalize tracking-wider font-bold">
+                        <span>Teknologi Yang Digunakan</span>
+                    </h4>
+                </div>
+                <div class="w-100 space-y-1 mb-5 text-md">
+                    <div class="inline-block text-white bg-green-600 p-2">Laravel</div>
+                    <div class="inline-block text-white bg-green-600 p-2">MySql</div>
+                    <div class="inline-block text-white bg-green-600 p-2">Bootstrap</div>
+                    <div class="inline-block text-white bg-green-600 p-2">Jquery</div>
+                </div>
+                <div class="my-4 lg:text-2xl">
+                    <h4 class="text-left bg-clip-text text-red-800 capitalize tracking-wider font-bold">
+                        <span>Peran Dalam Aplikasi</span>
+                    </h4>
+                </div>
+                <div class="my-4 text-sm">
+                    <ul class="list-outside bg-rose-200">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="flex flex-col items-center justify-center h-auto mt-12 -mt-10 mb-3">
+        <!-- <div class="mt-4">
+            <h3 class="font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-800">Aplikasi Yang Telah Dibuat</h3>
+        </div> -->
+        <div class="w-11/12">
+            <div class="grid lg:grid-cols-4 gap-2 grid-cols-1">
+                <div class="w-100 h-60 relative shadow-md rounded-md">
+                    <img src="../images/portfolio/galeria/1.png" class="object-cover w-full h-full rounded-md" alt="">
+                    <div class="absolute w-full h-full bottom-0 inset-x-0 rounded-md text-xs text-center leading-4 bg-gray-600 bg-opacity-30 hover:bg-opacity-10 box-portfo">
+                        <div class="flex flex-col justify-center items-center h-full">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 h-60 relative shadow-md rounded-md">
+                    <img src="../images/portfolio/galeria/2.png" class="object-cover w-full h-full rounded-md" alt="">
+                    <div class="absolute w-full h-full bottom-0 inset-x-0 rounded-md text-xs text-center leading-4 bg-gray-600 bg-opacity-30 hover:bg-opacity-10 box-portfo">
+                        <div class="flex flex-col justify-center items-center h-full">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 h-60 relative shadow-md rounded-md">
+                    <img src="../images/portfolio/galeria/3.png" class="object-cover w-full h-full rounded-md" alt="">
+                    <div class="absolute w-full h-full bottom-0 inset-x-0 rounded-md text-xs text-center leading-4 bg-gray-600 bg-opacity-30 hover:bg-opacity-10 box-portfo">
+                        <div class="flex flex-col justify-center items-center h-full">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 h-60 relative shadow-md rounded-md">
+                    <img src="../images/portfolio/galeria/4.png" class="object-cover w-full h-full rounded-md" alt="">
+                    <div class="absolute w-full h-full bottom-0 inset-x-0 rounded-md text-xs text-center leading-4 bg-gray-600 bg-opacity-30 hover:bg-opacity-10 box-portfo">
+                        <div class="flex flex-col justify-center items-center h-full">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script>
+        window.onscroll = () => {
+            const nav = document.querySelector('#navbar');
+            if(this.scrollY <= 75) {
+                nav.classList.remove('bg-yellow-600'); 
+                nav.classList.add('bg-transparent'); 
+            }else{
+                nav.classList.remove('bg-transparent'); 
+                nav.classList.add('bg-yellow-600');
+            }
+        };
+    </script>
+</body>
+</html>
