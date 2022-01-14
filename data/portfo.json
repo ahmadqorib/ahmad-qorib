@@ -1,0 +1,176 @@
+{
+    "data" : [
+        {
+            "id" : 1,
+            "name" : "CMS App Galeria Mall",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/galeria/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDB"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Web Mobil Mazda Untuk Sales",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/mobil/1.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDB"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "name" : "Aplikasi Audit Toko",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/audit/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MongoDB"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                },
+                {
+                    "name" : "Laravel Pusher"
+                },
+                {
+                    "name" : "PWA"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "name" : "Web Kawaiine",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/galeria/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDB"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "name" : "CMS Web Kemenag",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/kemenag/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDB"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "name" : "Aplikasi Adaro",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/adaro/1.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDB"
+                },
+                {
+                    "name" : "Sql Server"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                },
+                {
+                    "name" : "Vue Js"
+                }
+            ]
+        },
+        {
+            "id" : 7,
+            "name" : "UNIQC Adaro",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/galeria/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "Sql Server"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Vue Js"
+                }
+            ]
+        },
+        {
+            "id" : 8,
+            "name" : "COASS Kedokteran",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/galeria/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDb"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        }
+    ]
+}

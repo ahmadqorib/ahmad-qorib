@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/plugins/simple-lightbox/simple-lightbox.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <style>
         .shadow {
@@ -24,7 +25,7 @@
     <img src="images/home.svg" class="fixed block inset-0 w-full object-cover"
             style="z-index: -1;">
     
-    <nav x-data="component()" class="fixed w-screen py-2 z-50 opacity-90" id="navbar">
+    <nav x-data="component()" class="fixed w-screen py-2 z-10 opacity-90" id="navbar">
         <div class="flex">
             <div class="flex-2 hidden sm:block sm:flex-1"></div>
             <div :class="{'flex': open, 'hidden': !open}" class="hidden sm:block flex-2 flex flex-grow md:flex-grow-0 items-center justify-center">
@@ -432,189 +433,8 @@
                 <h3 class="font-bold text-3xl bg-clip-text text-transparent text-center bg-gradient-to-r from-green-600 to-green-800">Aplikasi Yang Telah Dibuat</h3>
             </div>
             <div class="w-full my-2 lg:w-3/4">
-                <div class="grid lg:grid-cols-4 grid-cols-1 lg:gap-4 gap-0">
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/galeria/2.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">CMS App Galeria Mall</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Web Aplikasi</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="portfolio/galeria-mall.html" target="_blank" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/mobil/1.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">Web Mobil Mazda Untuk Sales</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Web Aplikasi</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/audit/2.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">Aplikasi Audit Toko</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Web Aplikasi</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MongoDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel Pusher</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">PWA</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/kemenag/2.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">Web Kawaiine</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Web Aplikasi</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/kemenag/2.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">CMS Web Kemenag</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Web Aplikasi</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/adaro/1.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">Aplikasi Adaro</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Web Aplikasi</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">SQL Server</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">API</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">VueJs</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/kemenag/2.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">UNIQC Adaro</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Aplikasi Web</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">SQL Server</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">VueJs</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">API</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
-                        <img src="images/portfolio/kemenag/2.png" class="object-cover w-full h-full rounded-lg" alt="">
-                        <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
-                            <div class="flex flex-col justify-center items-center h-full">
-                                <div>
-                                    <span class="text-lg text-white font-bold">COASS Kedokteran</span>
-                                </div>
-                                <div>
-                                    <span class="text-xs text-gray-400">Aplikasi Web</span>
-                                </div>
-                                <div class="w-4/6 space-y-1 mb-5">
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                    <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                </div>
-                                <div class="text-sm text-gray-300">
-                                    <a href="" class="bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="grid lg:grid-cols-4 grid-cols-1 lg:gap-4 gap-0 box-list-portfo" id="box-portfo">
+
                 </div>
             </div>
             
@@ -652,20 +472,62 @@
                 </div>
             </div>
         </div>
-        <!-- <div class=" mx-auto px-6 bg-transparent">
-            <div class="flex flex-col items-center">
-                <div class="sm:w-2/3 text-center py-2">
-                    <p class="text-sm text-gray-300">
-                        © 2021 ahmad qorib
-                    </p>
+    </footer>
+
+    <!-- Modal Aplikasi Detail -->
+    <div class="fixed z-20 inset-0 overflow-y-auto modal-portfo hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle max-w-screen-lg w-full">
+                <div class="bg-white">
+                    <div class="grid grid-cols-2">
+                        <div class="gallery grid grid-cols-1 my-1 mx-1">
+                            <a class="" href="images/portfolio/adaro/login.png"><img src="images/portfolio/adaro/login.png" alt="" title=""/></a>
+                            <a class="" href="images/portfolio/adaro/1.png"><img src="images/portfolio/adaro/1.png" alt="" title=""/></a>
+                            <a class="" href="images/portfolio/adaro/ada-audit.png"></a>
+                        </div>
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left px-4 pt-5 pb-4 sm:p-6 sm:pb-4 overflow-y-auto">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">
+                                Aplikasi Adaro
+                            </h3>
+                            <div class="my-2">
+                                <p class="text-sm text-gray-500">
+                                Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.
+                                </p>
+                            </div>
+                            <h5 class="text-sm font-medium text-gray-900">Teknologi Yang Digunakan</h5>
+                            <div class="w-full space-y-1 mt-1 mb-2 text-xs">
+                                <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
+                                <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
+                                <div class="inline-block text-white bg-yellow-700 p-1">SQL Server</div>
+                                <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
+                                <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
+                                <div class="inline-block text-white bg-yellow-700 p-1">API</div>
+                                <div class="inline-block text-white bg-yellow-700 p-1">VueJs</div>
+                            </div>
+                            <h5 class="text-sm font-medium text-gray-900">Peran Dalam Aplikasi</h5>
+                            <ul class="text-gray-500 text-sm list-disc">
+                                <li>Membuat dan merancang aplikasi menggunakan framework Laravel</li>
+                                <li>Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel </li>
+                                <li>Membuat API (Application Programming Interface) dengan framework Laravel. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 sm:flex sm:flex-row-reverse">
+                    <button type="button" id="close-portfo-detail" class="w-full inline-flex justify-center md:rounded-tl-md border border-transparent shadow-sm px-4 py-2 bg-yellow-600 text-base font-medium text-white hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        <i class="fas fa-times"></i>
+                    </button>
                 </div>
             </div>
-        </div> -->
-    </footer>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/plugins/simple-lightbox/simple-lightbox.js"></script>
     <script>
         var scrool = 0;
         window.onscroll = () => {
@@ -681,7 +543,7 @@
             scrool = this.scrollY;
         };
 
-        AOS.init();
+        var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
 
         function component() {
           return {
@@ -737,6 +599,59 @@
             setTimeout(function() {
                 window.scrollTo(0, scrool - 50);
             }, 700);
+        }
+
+        document.getElementById('close-portfo-detail').addEventListener('click', function(val) {
+            document.querySelector('.modal-portfo').classList.add('hidden')
+        });
+
+        fetch('data/portfo.json')
+            .then(response => response.json())
+            .then(data => {
+                appendDataPortfo(data);
+            })
+            .catch(function (err) {
+                // If an error occured, you will catch it here
+            });
+
+        function appendDataPortfo(data) {
+            var mainContainer = document.getElementById("box-portfo");
+            data.data.forEach(function(val, key) {
+                let box = `
+                <div class="w-100 h-60 bg-red-700 relative rounded-lg border-4 border-white transform hover:bg-blue-600 transition duration-500 hover:scale-90 cursor-pointer">
+                    <img src="${val.image}" class="object-cover w-full h-full rounded-lg" alt="">
+                    <div class="absolute w-full h-full bottom-0 inset-x-0 text-xs text-center leading-4 bg-gray-600 bg-opacity-70 hover:bg-opacity-95 box-portfo rounded-lg">
+                        <div class="flex flex-col justify-center items-center h-full">
+                            <div>
+                                <span class="text-lg text-white font-bold">${val.name}</span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-gray-400">${val.type}</span>
+                            </div>
+                            <div class="w-4/6 space-y-1 space-x-1 mb-5">`;
+                                for(var i = 0; i < val.techno.length; i ++){
+                                    box += `<div class="inline-block text-white bg-yellow-700 p-1">${val.techno[i].name}</div>`
+                                }
+                        box +=`</div>
+                            <div class="text-sm text-gray-300">
+                                <a href="javascript:void(0);" id="detail-galeria-${val.id}" data-id="${val.id}" class="detail-galeria bg-green-600 hover:bg-green-500 p-2">Detail project <i class="fas fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+
+                mainContainer.innerHTML += box;
+
+                var dd = document.getElementsByClassName('detail-galeria');
+                Array.prototype.forEach.call(dd, function(element) {
+                    element.addEventListener('click', function(val) {
+                        console.log(val.target.getAttribute('data-id'))
+                        document.querySelector('.modal-portfo').classList.remove('hidden')
+                    });
+                });
+            });
+            
         }
     </script>
 </body>
