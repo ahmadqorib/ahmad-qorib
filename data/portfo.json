@@ -3,6 +3,7 @@
         {
             "id" : 1,
             "name" : "CMS App Galeria Mall",
+            "description" : "Web pengelolaan aplikasi pada Galeria mall, untuk memanajemen data outlet, voucher, dan informasi berupa berita atau event.",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/galeria/2.png",
             "techno" : [
@@ -18,11 +19,34 @@
                 {
                     "name" : "Jquery"
                 }
+            ],
+            "role" : [
+                {
+                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                },
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/galeria/1.png"
+                },
+                {
+                    "name" : "images/portfolio/galeria/2.png"
+                },
+                {
+                    "name" : "images/portfolio/galeria/3.png"
+                },
+                {
+                    "name" : "images/portfolio/galeria/4.png"
+                }
             ]
         },
         {
             "id" : 2,
             "name" : "Web Mobil Mazda Untuk Sales",
+            "description" : "Sebuah web informasi untuk seorang sales, dimana web ini menampilkan informasi berupa data mobil.",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/mobil/1.png",
             "techno" : [
@@ -38,11 +62,54 @@
                 {
                     "name" : "Jquery"
                 }
+            ],
+            "role" : [
+                {
+                    "name" : "Merancang kebutuhan basis data."
+                },
+                {
+                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                },
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Deploy app pada server hingga dapat diakses publik."
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/mobil/1.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/6.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/2.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/3.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/4.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/5.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/7.png"
+                },
+                {
+                    "name" : "images/portfolio/mobil/8.png"
+                }
             ]
         },
         {
             "id" : 3,
             "name" : "Aplikasi Audit Toko",
+            "description" : "Sebuat Web App Sass (Software As a Service) yang digunakan untuk memudahkan perusahaan mengelola peforma, kualitas dari operasional dengan mudah kapanpun.",
+            "admin_domain" : "https://admin.quabit.id/login",
+            "app_domain" : "https://app.quabit.id/login",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/audit/2.png",
             "techno" : [
@@ -63,6 +130,67 @@
                 },
                 {
                     "name" : "PWA"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Merancang kebutuhan basis data."
+                },
+                {
+                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                },
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Support Mobile App dengan teknologi Progresive Web Apps (PWA)"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/audit/2.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/13.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/1.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/3.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/4.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/5.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/7.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/8.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/9.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/10.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/11.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/12.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/14.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/15.png"
+                },
+                {
+                    "name" : "images/portfolio/audit/16.png"
                 }
             ]
         },
@@ -155,6 +283,46 @@
         {
             "id" : 8,
             "name" : "COASS Kedokteran",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/galeria/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDb"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        },
+        {
+            "id" : 9,
+            "name" : "Furniture",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/galeria/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "MariaDb"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ]
+        },
+        {
+            "id" : 10,
+            "name" : "Historia",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/galeria/2.png",
             "techno" : [

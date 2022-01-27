@@ -483,36 +483,26 @@
             <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle max-w-screen-lg w-full">
                 <div class="bg-white">
                     <div class="grid grid-cols-2">
-                        <div class="gallery grid grid-cols-1 my-1 mx-1">
-                            <a class="" href="images/portfolio/adaro/login.png"><img src="images/portfolio/adaro/login.png" alt="" title=""/></a>
-                            <a class="" href="images/portfolio/adaro/1.png"><img src="images/portfolio/adaro/1.png" alt="" title=""/></a>
-                            <a class="" href="images/portfolio/adaro/ada-audit.png"></a>
+                        <div class="gallery grid grid-cols-1 my-1 mx-1 images-app">
+                            
                         </div>
                         <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left px-4 pt-5 pb-4 sm:p-6 sm:pb-4 overflow-y-auto">
-                            <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">
-                                Aplikasi Adaro
+                            <h3 class="text-lg leading-6 font-medium text-gray-900 title-app" id="modal-title">
+                                
                             </h3>
                             <div class="my-2">
-                                <p class="text-sm text-gray-500">
-                                Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.
+                                <p class="text-sm text-gray-500 desc-app space-y-1 space-x-1">
+                                
                                 </p>
                             </div>
                             <h5 class="text-sm font-medium text-gray-900">Teknologi Yang Digunakan</h5>
-                            <div class="w-full space-y-1 mt-1 mb-2 text-xs">
-                                <div class="inline-block text-white bg-yellow-700 p-1">Laravel</div>
-                                <div class="inline-block text-white bg-yellow-700 p-1">MariaDB</div>
-                                <div class="inline-block text-white bg-yellow-700 p-1">SQL Server</div>
-                                <div class="inline-block text-white bg-yellow-700 p-1">Bootstrap</div>
-                                <div class="inline-block text-white bg-yellow-700 p-1">Jquery</div>
-                                <div class="inline-block text-white bg-yellow-700 p-1">API</div>
-                                <div class="inline-block text-white bg-yellow-700 p-1">VueJs</div>
+                            <div class="w-full space-y-1 mt-1 mb-2 text-xs techno-app">
+                                
                             </div>
                             <h5 class="text-sm font-medium text-gray-900">Peran Dalam Aplikasi</h5>
-                            <ul class="text-gray-500 text-sm list-disc">
-                                <li>Membuat dan merancang aplikasi menggunakan framework Laravel</li>
-                                <li>Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel </li>
-                                <li>Membuat API (Application Programming Interface) dengan framework Laravel. </li>
-                            </ul>
+                            <div class="role-app">
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -646,8 +636,42 @@
                 var dd = document.getElementsByClassName('detail-galeria');
                 Array.prototype.forEach.call(dd, function(element) {
                     element.addEventListener('click', function(val) {
-                        console.log(val.target.getAttribute('data-id'))
+                        let id = val.target.getAttribute('data-id');
+                        let query = data.data.filter(function(n,i){
+                            return n.id == id
+                        })
+                        console.log(query)
                         document.querySelector('.modal-portfo').classList.remove('hidden')
+
+                        document.querySelector('.title-app').innerHTML = query[0].name
+                        document.querySelector('.desc-app').innerHTML = query[0].description
+
+                        var techno = "";
+                        for(var i = 0; i < query[0].techno.length; i ++){
+                            techno += `<div class="inline-block text-white bg-yellow-700 p-1 ml-1">${query[0].techno[i].name}</div>`
+                        }
+                        document.querySelector('.techno-app').innerHTML = techno
+
+                        var role = `<ul class="text-gray-500 text-sm list-disc">`;
+                        for(var i = 0; i < query[0].role.length; i ++){
+                            role += `<li>${query[0].role[i].name}</li>`
+                        }
+                        role += `</ul>`;
+                        document.querySelector('.role-app').innerHTML = role
+
+                        var images = ``;
+                        for(var i = 0; i < query[0].images.length; i ++){
+                            if(i>1){
+                                images += `<a class="" href="${query[0].images[i].name}"></a>`
+                            }else{
+                                images += `<a class="" href="${query[0].images[i].name}"><img src="${query[0].images[i].name}" alt="" title=""/></a>`
+                            }
+                        }
+                        // <a class="" href="images/portfolio/adaro/login.png"><img src="images/portfolio/adaro/login.png" alt="" title=""/></a>
+                        //     <a class="" href="images/portfolio/adaro/1.png"><img src="images/portfolio/adaro/1.png" alt="" title=""/></a>
+                        //     <a class="" href="images/portfolio/adaro/ada-audit.png"></a>
+                        document.querySelector('.images-app').innerHTML = images
+                        var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
                     });
                 });
             });
