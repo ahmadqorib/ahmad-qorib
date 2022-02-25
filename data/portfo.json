@@ -3,6 +3,7 @@
         {
             "id" : 1,
             "name" : "CMS App Galeria Mall",
+            "domain" : "",
             "description" : "Web pengelolaan aplikasi pada Galeria mall, untuk memanajemen data outlet, voucher, dan informasi berupa berita atau event.",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/galeria/2.png",
@@ -46,6 +47,7 @@
         {
             "id" : 2,
             "name" : "Web Mobil Mazda Untuk Sales",
+            "domain" : "",
             "description" : "Sebuah web informasi untuk seorang sales, dimana web ini menampilkan informasi berupa data mobil.",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/mobil/1.png",
@@ -108,7 +110,7 @@
             "id" : 3,
             "name" : "Aplikasi Audit Toko",
             "description" : "Sebuat Web App Sass (Software As a Service) yang digunakan untuk memudahkan perusahaan mengelola peforma, kualitas dari operasional dengan mudah kapanpun.",
-            "admin_domain" : "https://admin.quabit.id/login",
+            "domain" : "https://admin.quabit.id/login",
             "app_domain" : "https://app.quabit.id/login",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/audit/2.png",
@@ -195,28 +197,10 @@
             ]
         },
         {
-            "id" : 4,
-            "name" : "Web Kawaiine",
-            "type" : "Web Aplikasi",
-            "image" : "images/portfolio/galeria/2.png",
-            "techno" : [
-                {
-                    "name" : "Laravel"
-                },
-                {
-                    "name" : "MariaDB"
-                },
-                {
-                    "name" : "Bootstrap"
-                },
-                {
-                    "name" : "Jquery"
-                }
-            ]
-        },
-        {
             "id" : 5,
             "name" : "CMS Web Kemenag",
+            "description" : "",
+            "domain" : "https://internal-pusaka.kemenag.go.id",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/kemenag/2.png",
             "techno" : [
@@ -232,11 +216,50 @@
                 {
                     "name" : "Jquery"
                 }
+            ],
+            "role" : [
+                {
+                    "name" : "Merancang kebutuhan basis data."
+                },
+                {
+                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                },
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/kemenag/2.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/1.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/3.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/4.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/5.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/6.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/7.png"
+                },
+                {
+                    "name" : "images/portfolio/kemenag/8.png"
+                }
             ]
         },
         {
             "id" : 6,
             "name" : "Aplikasi Adaro",
+            "description" : "",
+            "domain" : "https://adago.id",
             "type" : "Web Aplikasi",
             "image" : "images/portfolio/adaro/1.png",
             "techno" : [
@@ -257,6 +280,37 @@
                 },
                 {
                     "name" : "Vue Js"
+                },
+                {
+                    "name" : "Flutter"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                },
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Mobile"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/adaro/1.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/login.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/ada-audit.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/ada-ide.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/ada-mobil-reservasi.png"
                 }
             ]
         },
@@ -323,8 +377,10 @@
         {
             "id" : 10,
             "name" : "Historia",
+            "description" : "Web Manajemen Konten sejarah Provinsi Daerah Istimewa Yogyakarta.",
+            "domain" : "",
+            "image" : "images/portfolio/historia/12.png",
             "type" : "Web Aplikasi",
-            "image" : "images/portfolio/galeria/2.png",
             "techno" : [
                 {
                     "name" : "Laravel"
@@ -336,7 +392,109 @@
                     "name" : "Bootstrap"
                 },
                 {
+                    "name" : "Java Script"
+                },
+                {
                     "name" : "Jquery"
+                },
+                {
+                    "name" : "Laravel Livewire"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Merancang kebutuhan basis data."
+                },
+                {
+                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                },
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/historia/12.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/1.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/12.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/13.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/14.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/15.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/16.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/login.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/2.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/5.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/6.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/7.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/8.png"
+                },
+                {
+                    "name" : "images/portfolio/historia/9.png"
+                }
+            ]
+        },
+        {
+            "id" : 11,
+            "name" : "Indeks Desa Membangun (IDM)",
+            "description" : "Web aplikasi untuk menilai indeks pembangunan desa di seluruh indonesia.",
+            "type" : "Web Aplikasi",
+            "domain" : "https://idm.kemendesa.go.id",
+            "image" : "images/portfolio/idm/1.png",
+            "techno" : [
+                {
+                    "name" : "Codeigniter 3"
+                },
+                {
+                    "name" : "MariaDb"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Melakukan pemeliharaan sistem aplikasi"
+                },
+                {
+                    "name" : "Melakukan pengembangan fitur aplikasi"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/idm/1.png"
+                },
+                {
+                    "name" : "images/portfolio/idm/3.png"
+                },
+                {
+                    "name" : "images/portfolio/idm/2.png"
                 }
             ]
         }
