@@ -267,6 +267,9 @@
                     "name" : "Laravel"
                 },
                 {
+                    "name" : "OAuth2"
+                },
+                {
                     "name" : "MariaDB"
                 },
                 {
@@ -317,11 +320,17 @@
         {
             "id" : 7,
             "name" : "UNIQC Adaro",
+            "description" : "",
+            "domain" : "https://uniqc.adago.id",
+            "api_doc" : "https://uniqc.docs.apiary.io/#",
             "type" : "Web Aplikasi",
-            "image" : "images/portfolio/galeria/2.png",
+            "image" : "images/portfolio/uniqc/2.png",
             "techno" : [
                 {
                     "name" : "Laravel"
+                },
+                {
+                    "name" : "OAuth2"
                 },
                 {
                     "name" : "Sql Server"
@@ -331,6 +340,31 @@
                 },
                 {
                     "name" : "Vue Js"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Mobile"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/uniqc/1.png"
+                },
+                {
+                    "name" : "images/portfolio/uniqc/2.png"
+                },
+                {
+                    "name" : "images/portfolio/uniqc/3.png"
+                },
+                {
+                    "name" : "images/portfolio/uniqc/4.png"
+                },
+                {
+                    "name" : "images/portfolio/uniqc/5.png"
                 }
             ]
         },
