@@ -594,6 +594,47 @@
                     "name" : "images/portfolio/idm/2.png"
                 }
             ]
+        },
+        {
+            "id" : 12,
+            "name" : "Desa Wisata Nusantara",
+            "description" : "Pengelolaan desa wisata untuk BUM Desa / BUM Des",
+            "type" : "Web Aplikasi",
+            "domain" : "https://desawisata.kemendesa.go.id/",
+            "image" : "images/portfolio/desa-wisata/1.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "Laravel Livewire"
+                },
+                {
+                    "name" : "MariaDb"
+                },
+                {
+                    "name" : "Tailwind Css"
+                },
+                {
+                    "name" : "Javascript"
+                },
+                {
+                    "name" : "Alpine Js"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Melakukan pemeliharaan sistem aplikasi"
+                },
+                {
+                    "name" : "Melakukan pengembangan fitur aplikasi"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/desa-wisata/1.png"
+                }
+            ]
         }
     ]
 }
