@@ -222,7 +222,7 @@
                     "name" : "Merancang kebutuhan basis data."
                 },
                 {
-                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
+                    "name" : "Memelihara serta melakukan pengembangan sistem"
                 },
                 {
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
@@ -290,13 +290,16 @@
             ],
             "role" : [
                 {
-                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
-                },
-                {
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
                 },
                 {
                     "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Mobile"
+                },
+                {
+                    "name" : "Memelihara serta melakukan pengembangan"
+                },
+                {
+                    "name" : "Melakukan optimasi performa dari aplikasi"
                 }
             ],
             "images" : [
@@ -348,6 +351,12 @@
                 },
                 {
                     "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Mobile"
+                },
+                {
+                    "name" : "Memelihara serta melakukan pengembangan"
+                },
+                {
+                    "name" : "Melakukan optimasi performa dari aplikasi"
                 }
             ],
             "images" : [
@@ -444,9 +453,6 @@
                     "name" : "Merancang kebutuhan basis data."
                 },
                 {
-                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
-                },
-                {
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
                 }
             ],
@@ -501,9 +507,6 @@
             "role" : [
                 {
                     "name" : "Merancang kebutuhan basis data."
-                },
-                {
-                    "name" : "Membuat dan merancang aplikasi menggunakan framework Laravel."
                 },
                 {
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
