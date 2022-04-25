@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmad Qorib</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="dist/app.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/plugins/simple-lightbox/simple-lightbox.min.css">
@@ -21,7 +21,7 @@
         }
     </style>
 </head>
-<body>
+<body class="dark:bg-slate-800">
     <img src="images/home.svg" class="fixed block inset-0 w-full object-cover"
             style="z-index: -1;">
     
@@ -42,13 +42,16 @@
                 </div>
             </div>
             <div class="hidden sm:block flex-1 flex items-center justify-end px-7">
-                <div class="sm:ml-6">
+                <div class="sm:ml-6 flex">
                     <div class="flex space-x-1">
-                        <a href="" class="bg-gray-100 text-green-500 font-bold text-sm rounded-md px-3 py-2">Unduh CV <i class="fas fa-arrow-circle-down"></i></a>
+                        <a href="data/AhmadQorib.pdf" download="" class="bg-gray-100 text-green-500 font-bold text-sm rounded-md px-3 py-2">Unduh CV <i class="fas fa-arrow-circle-down"></i></a>
                         <a href="https://wa.me/6282134336009" target="_blank" class="bg-red-700 text-gray-50 rounded-md px-3 py-2" title="628213433009"><i class="fab fa-whatsapp"></i></a>
                         <a href="mailto:ahmadqorib97@gmail.com" class="bg-red-700 text-gray-50 rounded-md px-3 py-2" title="ahmadqorib97@gmail.com"><i class="fas fa-envelope"></i></a>
                         <a href="https://github.com/ahmadqorib" target="_blank" class="bg-red-700 text-gray-50 rounded-md px-3 py-2" title="ahmadqorib"><i class="fab fa-github"></i></a>
                         <a href="https://gitlab.com/ahmadqorib" target="_blank" class="bg-red-700 text-gray-50 rounded-md px-3 py-2" title="ahmadqorib"><i class="fab fa-gitlab"></i></a>
+                    </div>
+                    <div class="flex justify-center items-center ml-3">
+                        <!-- <input type="checkbox" id="dark-toggle"> -->
                     </div>
                 </div>
             </div>
@@ -68,7 +71,7 @@
     </nav>
     <div class="flex items-center justify-center h-screen" id="tentang">
 
-        <div class="bg-gray-50 w-11/12 h-3/4 lg:w-3/4 flex flex-col justify-center items-center lg:grid lg:grid-cols-2 rounded-lg p-6">
+        <div class="bg-gray-50 w-11/12 h-3/4 lg:w-3/4 flex flex-col justify-center items-center lg:grid lg:grid-cols-2 rounded-lg p-6 dark:bg-slate-800 dark:border dark:border-slate-500 ">
             <div class="lg:block flex flex-col items-center justify-center lg:pl-14">
                 <div class="text-3xl lg:text-6xl w-full lg:w-96 lg:-space-y-2">
                     <h4 class="lg:text-justify text-center bg-clip-text text-transparent bg-gradient-to-b from-red-600 to-yellow-400 capitalize tracking-wider font-bold">
@@ -85,7 +88,7 @@
                 </div>
                 <div class="my-4">
                     <p class="lg:text-justify text-center lg:text-sm text-xs text-gray-500 tracking-wide w-80">
-                        Web Developer dengan pengalaman lebih dari 2 tahun. Terampil dalam menganalisa dan mengimplementasikan teknologi - teknologi yang dibutuhkan dalam pengembangan aplikasi berbasis web.
+                        Web Developer yang berfokus pada sisi backend dengan pengalaman lebih dari 2 tahun. Terampil dalam menganalisa dan mengimplementasikan teknologi - teknologi yang dibutuhkan dalam pengembangan aplikasi berbasis web.
                     </p>
                 </div>
             </div>
@@ -301,9 +304,10 @@
                                         Deskripsi Pekerjaan
                                     </h5>
                                     <ul class="text-gray-500 text-sm list-disc ml-6 sm:text-left text-justify">
-                                        <li>Membuat dan merancang aplikasi menggunakan framework Laravel</li>
-                                        <li>Membuat halaman di sisi admin (CMS) </li>
-                                        <li>Membuat API (Application Programming Interface) dengan framework Laravel. </li>
+                                        <li>Mengimplementasikan hasil analisa sistem dan desain ke dalam pemrograman (Framework Laravel).</li>
+                                        <li>Melakukan pengembangan sistem serta memperbaiki bug/eror untuk menjaga kualitas aplikasi.</li>
+                                        <li>Membuat API (Application Programming Interface) sebagai kebutuhan data untuk Web atau Mobile.</li>
+                                        <li>Membuat kebutuhan manajemen data pada aplikasi.</li>
                                     </ul>
                                 </div>
                                 <div>
@@ -379,11 +383,11 @@
                                         Deskripsi Pekerjaan
                                     </h5>
                                     <ul class="text-gray-500 text-sm list-disc ml-6 sm:text-left text-justify">
-                                        <li>Membuat dan merancang aplikasi menggunakan framework Laravel</li>
-                                        <li>Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel </li>
-                                        <li>Membuat API (Application Programming Interface) dengan framework Laravel. </li>
-                                        <li>Memelihara dan mengembangkan sistem yang ada. </li>
-                                        <li>Menganalisa dan melakukan optimasi pada performa aplikasi. </li>
+                                        <li>Mengimplementasikan hasil analisa sistem dan desain ke dalam pemrograman (Framework Laravel).</li>
+                                        <li>Melakukan pengembangan sistem serta memperbaiki bug/eror untuk menjaga kualitas aplikasi.</li>
+                                        <li>Melakukan optimasi sistem dengan melakukan perbaikan teknis, sehingga sistem aplikasi dapat berjalan sesuai kebutuhan.</li>
+                                        <li>Membuat API (Application Programming Interface) sebagai kebutuhan data untuk Web atau Mobile.</li>
+                                        <li>Membuat kebutuhan manajemen data pada aplikasi.</li>
                                     </ul>
                                 </div>
                                 <div>
@@ -398,6 +402,9 @@
                                         </div>
                                         <div class="p-1 shadow-lg w-full border-l-4 border-green-500">
                                             <span class="">Uniqc Adaro</span>
+                                        </div>
+                                        <div class="p-1 shadow-lg w-full border-l-4 border-green-500">
+                                            <span class="">Coal Inventory Dashboard</span>
                                         </div>
                                     </div>
                                 </div>
@@ -465,9 +472,9 @@
                                         Deskripsi Pekerjaan
                                     </h5>
                                     <ul class="text-gray-500 text-sm list-disc ml-6 sm:text-left text-justify">
-                                        <li>Merancang Basis Data</li>
-                                        <li>Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Bahasa Pemrograman </li>
-                                        <li>Memelihara dan mengembangkan sistem</li>
+                                        <li>Melakukan analisa serta merancang kebutuhan basis data.</li>
+                                        <li>Mengimplementasikan hasil analisa sistem dan desain ke dalam pemrograman.</li>
+                                        <li>Melakukan pengembangan sistem serta memperbaiki bug/eror untuk menjaga kualitas aplikasi.</li>
                                     </ul>
                                 </div>
                                 <div>
@@ -640,6 +647,11 @@
         </div>
     </div>
 
+    <!-- back to top -->
+    <a href="javascript:void(0);" onclick="tentang()" id="to-top" class="hidden w-14 h-14 bg-green-700 justify-center items-center fixed z-[9999] bottom-4 right-4 rounded-full p-4 hover:bg-green-500">
+        <span class="block w-5 h-5 rotate-45 border-l-2 border-t-2 mt-2"></span>
+    </a>
+
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script src="assets/plugins/simple-lightbox/simple-lightbox.js"></script>
@@ -656,7 +668,29 @@
             }
 
             scrool = this.scrollY;
+
+            // scrool to top
+            const fixedNav = nav.offsetTop;
+            const toTop = document.querySelector('#to-top');
+            if(window.pageYOffset > fixedNav){
+                toTop.classList.remove('hidden')
+                toTop.classList.add('flex')
+            }else{
+                toTop.classList.remove('flex')
+                toTop.classList.add('hidden')
+            }
         };
+
+        // darkmode
+        // const darkToggle = document.querySelector('#dark-toggle')
+        // const html = document.querySelector('html')
+        // darkToggle.addEventListener('click', function(){
+        //     if(darkToggle.checked) {
+        //         html.classList.add('dark')
+        //     }else{
+        //         html.classList.remove('dark')
+        //     }
+        // })
 
         var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
 
