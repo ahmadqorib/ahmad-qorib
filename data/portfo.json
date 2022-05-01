@@ -481,7 +481,7 @@
             "id" : 10,
             "name" : "Historia",
             "description" : "Web Manajemen Konten sejarah Provinsi Daerah Istimewa Yogyakarta.",
-            "domain" : "",
+            "domain" : "http://www.gregahmuseum.jogjaprov.go.id/historia",
             "image" : "images/portfolio/historia/12.png",
             "type" : "Web Aplikasi",
             "techno" : [
