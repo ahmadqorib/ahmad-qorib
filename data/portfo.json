@@ -638,6 +638,59 @@
                     "name" : "images/portfolio/desa-wisata/1.png"
                 }
             ]
+        },
+        {
+            "id" : 13,
+            "name" : "Coal Inventory Adaro",
+            "description" : "Pengelolaan data coal mining",
+            "type" : "Web Aplikasi",
+            "domain" : "https://omnimata.id/",
+            "image" : "images/portfolio/omnimata/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "Vue Js"
+                },
+                {
+                    "name" : "MySql"
+                },
+                {
+                    "name" : "Sql Server"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Melakukan pemeliharaan sistem aplikasi"
+                },
+                {
+                    "name" : "Melakukan pengembangan fitur aplikasi"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/omnimata/login.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/2.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/1.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/3.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/4.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/5.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/6.png"
+                }
+            ]
         }
     ]
 }
