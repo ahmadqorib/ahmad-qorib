@@ -1,5 +1,128 @@
 {
     "data" : [
+
+        {
+            "id" : 6,
+            "name" : "Aplikasi Adaro",
+            "description" : "",
+            "domain" : "https://adago.id",
+            "type" : "Web Aplikasi",
+            "image" : "images/portfolio/adaro/1.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "OAuth2"
+                },
+                {
+                    "name" : "MariaDB"
+                },
+                {
+                    "name" : "Sql Server"
+                },
+                {
+                    "name" : "Bootstrap"
+                },
+                {
+                    "name" : "Jquery"
+                },
+                {
+                    "name" : "Vue Js"
+                },
+                {
+                    "name" : "Flutter"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Client (Mobile/Vue Js)"
+                },
+                {
+                    "name" : "Memelihara serta melakukan pengembangan"
+                },
+                {
+                    "name" : "Melakukan optimasi performa dari aplikasi"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/adaro/1.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/login.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/ada-audit.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/ada-ide.png"
+                },
+                {
+                    "name" : "images/portfolio/adaro/ada-mobil-reservasi.png"
+                }
+            ]
+        },
+
+        {
+            "id" : 13,
+            "name" : "Coal Inventory Adaro",
+            "description" : "Pengelolaan data coal mining",
+            "type" : "Web Aplikasi",
+            "domain" : "https://omnimata.id/",
+            "image" : "images/portfolio/omnimata/2.png",
+            "techno" : [
+                {
+                    "name" : "Laravel"
+                },
+                {
+                    "name" : "Vue Js"
+                },
+                {
+                    "name" : "MySql"
+                },
+                {
+                    "name" : "Sql Server"
+                }
+            ],
+            "role" : [
+                {
+                    "name" : "Melakukan pemeliharaan sistem aplikasi"
+                },
+                {
+                    "name" : "Melakukan pengembangan fitur aplikasi"
+                },
+                {
+                    "name" : "Membuat API (Application Programming Interface)"
+                }
+            ],
+            "images" : [
+                {
+                    "name" : "images/portfolio/omnimata/login.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/2.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/1.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/3.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/4.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/5.png"
+                },
+                {
+                    "name" : "images/portfolio/omnimata/6.png"
+                }
+            ]
+        },
         {
             "id" : 1,
             "name" : "CMS App Galeria Mall",
@@ -256,71 +379,6 @@
             ]
         },
         {
-            "id" : 6,
-            "name" : "Aplikasi Adaro",
-            "description" : "",
-            "domain" : "https://adago.id",
-            "type" : "Web Aplikasi",
-            "image" : "images/portfolio/adaro/1.png",
-            "techno" : [
-                {
-                    "name" : "Laravel"
-                },
-                {
-                    "name" : "OAuth2"
-                },
-                {
-                    "name" : "MariaDB"
-                },
-                {
-                    "name" : "Sql Server"
-                },
-                {
-                    "name" : "Bootstrap"
-                },
-                {
-                    "name" : "Jquery"
-                },
-                {
-                    "name" : "Vue Js"
-                },
-                {
-                    "name" : "Flutter"
-                }
-            ],
-            "role" : [
-                {
-                    "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
-                },
-                {
-                    "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Mobile"
-                },
-                {
-                    "name" : "Memelihara serta melakukan pengembangan"
-                },
-                {
-                    "name" : "Melakukan optimasi performa dari aplikasi"
-                }
-            ],
-            "images" : [
-                {
-                    "name" : "images/portfolio/adaro/1.png"
-                },
-                {
-                    "name" : "images/portfolio/adaro/login.png"
-                },
-                {
-                    "name" : "images/portfolio/adaro/ada-audit.png"
-                },
-                {
-                    "name" : "images/portfolio/adaro/ada-ide.png"
-                },
-                {
-                    "name" : "images/portfolio/adaro/ada-mobil-reservasi.png"
-                }
-            ]
-        },
-        {
             "id" : 7,
             "name" : "UNIQC Adaro",
             "description" : "",
@@ -350,7 +408,7 @@
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
                 },
                 {
-                    "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Mobile"
+                    "name" : "Membuat API (Application Programming Interface) untuk integrasi data pada sisi Client"
                 },
                 {
                     "name" : "Memelihara serta melakukan pengembangan"
@@ -454,6 +512,9 @@
                 },
                 {
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Membuat halaman depan/landing page serta manajemen konten/CMS"
                 }
             ],
             "images" : [
@@ -510,6 +571,9 @@
                 },
                 {
                     "name" : "Mengimplementasikan sistem dan desain ke dalam sebuah aplikasi Dengan Framework Laravel."
+                },
+                {
+                    "name" : "Membuat manajemen konten/CMS"
                 }
             ],
             "images" : [
@@ -640,55 +704,55 @@
             ]
         },
         {
-            "id" : 13,
-            "name" : "Coal Inventory Adaro",
-            "description" : "Pengelolaan data coal mining",
+            "id" : 14,
+            "name" : "Website E-JFP",
+            "description" : "Website ejfp",
             "type" : "Web Aplikasi",
-            "domain" : "https://omnimata.id/",
-            "image" : "images/portfolio/omnimata/2.png",
+            "domain" : "https://penerjemah.setkab.go.id/",
+            "image" : "images/portfolio/ejfp/1.png",
             "techno" : [
                 {
                     "name" : "Laravel"
                 },
                 {
-                    "name" : "Vue Js"
+                    "name" : "Javascript/Jquery"
                 },
                 {
                     "name" : "MySql"
                 },
                 {
                     "name" : "Sql Server"
+                },
+                {
+                    "name" : "CSS/Bootstrap 3"
                 }
             ],
             "role" : [
                 {
-                    "name" : "Melakukan pemeliharaan sistem aplikasi"
+                    "name" : "Membuat halaman depan untuk webiste ejfp"
                 },
                 {
-                    "name" : "Melakukan pengembangan fitur aplikasi"
+                    "name" : "Membuat manajemen konten/CMS"
                 }
             ],
             "images" : [
                 {
-                    "name" : "images/portfolio/omnimata/login.png"
+                    "name" : "images/portfolio/ejfp/1.png"
                 },
                 {
-                    "name" : "images/portfolio/omnimata/2.png"
+                    "name" : "images/portfolio/ejfp/5.png"
                 },
                 {
-                    "name" : "images/portfolio/omnimata/1.png"
+                    "name" : "images/portfolio/ejfp/2.png"
                 },
                 {
-                    "name" : "images/portfolio/omnimata/3.png"
+                    "name" : "images/portfolio/ejfp/3.png"
                 },
                 {
-                    "name" : "images/portfolio/omnimata/4.png"
+                    "name" : "images/portfolio/ejfp/4.png"
                 },
                 {
-                    "name" : "images/portfolio/omnimata/5.png"
-                },
-                {
-                    "name" : "images/portfolio/omnimata/6.png"
+                    "name" : "images/portfolio/ejfp/6.png"
                 }
             ]
         }
